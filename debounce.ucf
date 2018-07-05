@@ -1,0 +1,27 @@
+
+# Created by Constraints Editor (xc6slx9-tqg144-3) - 2018/06/28
+# ... and modified repeatedly by hand
+
+NET "clk50m_in" TNM_NET = "clk50m_in";
+TIMESPEC TS_clk50m_in = PERIOD "clk50m_in" 20 ns HIGH 50 %;
+
+NET "btn1_in" LOC = P133;
+NET "btn1_in" IOSTANDARD = LVCMOS33;
+
+NET "btn2_in" LOC = P132;
+NET "btn2_in" IOSTANDARD = LVCMOS33;
+
+NET "clk50m_in" LOC = P21;
+NET "clk50m_in" IOSTANDARD = LVCMOS33;
+
+NET "ld1_out" LOC = P44;
+NET "ld1_out" IOSTANDARD = LVCMOS33;
+
+#NET "ld8_out" LOC = P61;
+#NET "ld8_out" IOSTANDARD = LVCMOS33;
+
+NET "smpclk_out" LOC = P27;
+NET "smpclk_out" IOSTANDARD = LVCMOS33;
+
+NET "db_out" LOC = P29;
+NET "db_out" IOSTANDARD = LVCMOS33;
